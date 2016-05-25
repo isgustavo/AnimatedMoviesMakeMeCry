@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E912C1CF5EF2D007205D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E912B1CF5EF2D007205D6 /* AppDelegate.swift */; };
+		154E912E1CF5EF2D007205D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E912D1CF5EF2D007205D6 /* ViewController.swift */; };
+		154E91311CF5EF2D007205D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E912F1CF5EF2D007205D6 /* Main.storyboard */; };
+		154E91341CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 154E91321CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld */; };
+		154E91361CF5EF2D007205D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E91351CF5EF2D007205D6 /* Assets.xcassets */; };
+		154E91391CF5EF2D007205D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */; };
+		154E91441CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E91431CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift */; };
+		154E914F1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E914E1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154E91401CF5EF2E007205D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E91201CF5EF2D007205D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E91271CF5EF2D007205D6;
+			remoteInfo = "Animated Movies Make Me Cry";
+		};
+		154E914B1CF5EF2E007205D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E91201CF5EF2D007205D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E91271CF5EF2D007205D6;
+			remoteInfo = "Animated Movies Make Me Cry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154E91281CF5EF2D007205D6 /* Animated Movies Make Me Cry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Movies Make Me Cry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E912B1CF5EF2D007205D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		154E912D1CF5EF2D007205D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		154E91301CF5EF2D007205D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		154E91331CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animated_Movies_Make_Me_Cry.xcdatamodel; sourceTree = "<group>"; };
+		154E91351CF5EF2D007205D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		154E91381CF5EF2D007205D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		154E913A1CF5EF2D007205D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E913F1CF5EF2E007205D6 /* Animated Movies Make Me CryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Movies Make Me CryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E91431CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Movies_Make_Me_CryTests.swift; sourceTree = "<group>"; };
+		154E91451CF5EF2E007205D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E914A1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Movies Make Me CryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E914E1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Movies_Make_Me_CryUITests.swift; sourceTree = "<group>"; };
+		154E91501CF5EF2E007205D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154E91251CF5EF2D007205D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E913C1CF5EF2E007205D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E91471CF5EF2E007205D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E911F1CF5EF2D007205D6 = {
+			isa = PBXGroup;
+			children = (
+				154E912A1CF5EF2D007205D6 /* Animated Movies Make Me Cry */,
+				154E91421CF5EF2E007205D6 /* Animated Movies Make Me CryTests */,
+				154E914D1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests */,
+				154E91291CF5EF2D007205D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154E91291CF5EF2D007205D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154E91281CF5EF2D007205D6 /* Animated Movies Make Me Cry.app */,
+				154E913F1CF5EF2E007205D6 /* Animated Movies Make Me CryTests.xctest */,
+				154E914A1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154E912A1CF5EF2D007205D6 /* Animated Movies Make Me Cry */ = {
+			isa = PBXGroup;
+			children = (
+				154E912B1CF5EF2D007205D6 /* AppDelegate.swift */,
+				154E912D1CF5EF2D007205D6 /* ViewController.swift */,
+				154E912F1CF5EF2D007205D6 /* Main.storyboard */,
+				154E91351CF5EF2D007205D6 /* Assets.xcassets */,
+				154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */,
+				154E913A1CF5EF2D007205D6 /* Info.plist */,
+				154E91321CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld */,
+			);
+			path = "Animated Movies Make Me Cry";
+			sourceTree = "<group>";
+		};
+		154E91421CF5EF2E007205D6 /* Animated Movies Make Me CryTests */ = {
+			isa = PBXGroup;
+			children = (
+				154E91431CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift */,
+				154E91451CF5EF2E007205D6 /* Info.plist */,
+			);
+			path = "Animated Movies Make Me CryTests";
+			sourceTree = "<group>";
+		};
+		154E914D1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				154E914E1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift */,
+				154E91501CF5EF2E007205D6 /* Info.plist */,
+			);
+			path = "Animated Movies Make Me CryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154E91271CF5EF2D007205D6 /* Animated Movies Make Me Cry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E91531CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me Cry" */;
+			buildPhases = (
+				154E91241CF5EF2D007205D6 /* Sources */,
+				154E91251CF5EF2D007205D6 /* Frameworks */,
+				154E91261CF5EF2D007205D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animated Movies Make Me Cry";
+			productName = "Animated Movies Make Me Cry";
+			productReference = 154E91281CF5EF2D007205D6 /* Animated Movies Make Me Cry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		154E913E1CF5EF2E007205D6 /* Animated Movies Make Me CryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E91561CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryTests" */;
+			buildPhases = (
+				154E913B1CF5EF2E007205D6 /* Sources */,
+				154E913C1CF5EF2E007205D6 /* Frameworks */,
+				154E913D1CF5EF2E007205D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E91411CF5EF2E007205D6 /* PBXTargetDependency */,
+			);
+			name = "Animated Movies Make Me CryTests";
+			productName = "Animated Movies Make Me CryTests";
+			productReference = 154E913F1CF5EF2E007205D6 /* Animated Movies Make Me CryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		154E91491CF5EF2E007205D6 /* Animated Movies Make Me CryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E91591CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryUITests" */;
+			buildPhases = (
+				154E91461CF5EF2E007205D6 /* Sources */,
+				154E91471CF5EF2E007205D6 /* Frameworks */,
+				154E91481CF5EF2E007205D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E914C1CF5EF2E007205D6 /* PBXTargetDependency */,
+			);
+			name = "Animated Movies Make Me CryUITests";
+			productName = "Animated Movies Make Me CryUITests";
+			productReference = 154E914A1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154E91201CF5EF2D007205D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gustavo F Oliveira";
+				TargetAttributes = {
+					154E91271CF5EF2D007205D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					154E913E1CF5EF2E007205D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 154E91271CF5EF2D007205D6;
+					};
+					154E91491CF5EF2E007205D6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 154E91271CF5EF2D007205D6;
+					};
+				};
+			};
+			buildConfigurationList = 154E91231CF5EF2D007205D6 /* Build configuration list for PBXProject "Animated Movies Make Me Cry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 154E911F1CF5EF2D007205D6;
+			productRefGroup = 154E91291CF5EF2D007205D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154E91271CF5EF2D007205D6 /* Animated Movies Make Me Cry */,
+				154E913E1CF5EF2E007205D6 /* Animated Movies Make Me CryTests */,
+				154E91491CF5EF2E007205D6 /* Animated Movies Make Me CryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154E91261CF5EF2D007205D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E91391CF5EF2D007205D6 /* LaunchScreen.storyboard in Resources */,
+				154E91361CF5EF2D007205D6 /* Assets.xcassets in Resources */,
+				154E91311CF5EF2D007205D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E913D1CF5EF2E007205D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E91481CF5EF2E007205D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154E91241CF5EF2D007205D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E912E1CF5EF2D007205D6 /* ViewController.swift in Sources */,
+				154E912C1CF5EF2D007205D6 /* AppDelegate.swift in Sources */,
+				154E91341CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E913B1CF5EF2E007205D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E91441CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E91461CF5EF2E007205D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E914F1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154E91411CF5EF2E007205D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E91271CF5EF2D007205D6 /* Animated Movies Make Me Cry */;
+			targetProxy = 154E91401CF5EF2E007205D6 /* PBXContainerItemProxy */;
+		};
+		154E914C1CF5EF2E007205D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E91271CF5EF2D007205D6 /* Animated Movies Make Me Cry */;
+			targetProxy = 154E914B1CF5EF2E007205D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		154E912F1CF5EF2D007205D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154E91301CF5EF2D007205D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154E91381CF5EF2D007205D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154E91511CF5EF2E007205D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		154E91521CF5EF2E007205D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154E91541CF5EF2E007205D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animated Movies Make Me Cry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		154E91551CF5EF2E007205D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animated Movies Make Me Cry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		154E91571CF5EF2E007205D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animated Movies Make Me CryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-CryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Movies Make Me Cry.app/Animated Movies Make Me Cry";
+			};
+			name = Debug;
+		};
+		154E91581CF5EF2E007205D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Animated Movies Make Me CryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-CryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Movies Make Me Cry.app/Animated Movies Make Me Cry";
+			};
+			name = Release;
+		};
+		154E915A1CF5EF2E007205D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animated Movies Make Me CryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-CryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animated Movies Make Me Cry";
+			};
+			name = Debug;
+		};
+		154E915B1CF5EF2E007205D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Animated Movies Make Me CryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-CryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Animated Movies Make Me Cry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154E91231CF5EF2D007205D6 /* Build configuration list for PBXProject "Animated Movies Make Me Cry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E91511CF5EF2E007205D6 /* Debug */,
+				154E91521CF5EF2E007205D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E91531CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me Cry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E91541CF5EF2E007205D6 /* Debug */,
+				154E91551CF5EF2E007205D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		154E91561CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E91571CF5EF2E007205D6 /* Debug */,
+				154E91581CF5EF2E007205D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		154E91591CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E915A1CF5EF2E007205D6 /* Debug */,
+				154E915B1CF5EF2E007205D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		154E91321CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				154E91331CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodel */,
+			);
+			currentVersion = 154E91331CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodel */;
+			path = Animated_Movies_Make_Me_Cry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 154E91201CF5EF2D007205D6 /* Project object */;
+}
