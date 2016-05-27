@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B266454DC9083772CE51CC8 /* Pods_Animated_Movies_Make_Me_CryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E985A6E6F066E46766D1C6 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */; };
 		154E912C1CF5EF2D007205D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E912B1CF5EF2D007205D6 /* AppDelegate.swift */; };
 		154E912E1CF5EF2D007205D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E912D1CF5EF2D007205D6 /* ViewController.swift */; };
 		154E91311CF5EF2D007205D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E912F1CF5EF2D007205D6 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		154E91391CF5EF2D007205D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */; };
 		154E91441CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E91431CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryTests.swift */; };
 		154E914F1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E914E1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift */; };
+		154E915D1CF8896A007205D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 154E915C1CF8896A007205D6 /* GoogleService-Info.plist */; };
+		61B9ED8A61D00DCA4E089171 /* Pods_Animated_Movies_Make_Me_CryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322E561BB143E9A20F526F3C /* Pods_Animated_Movies_Make_Me_CryTests.framework */; };
+		CCCF7416FAC809CDEF38340B /* Pods_Animated_Movies_Make_Me_Cry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4DEC88672900FA6D91F3A8 /* Pods_Animated_Movies_Make_Me_Cry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8938B0625B3526E9F6F015 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me CryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		154E91281CF5EF2D007205D6 /* Animated Movies Make Me Cry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Movies Make Me Cry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154E912B1CF5EF2D007205D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		154E912D1CF5EF2D007205D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		154E914A1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Movies Make Me CryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154E914E1CF5EF2E007205D6 /* Animated_Movies_Make_Me_CryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Movies_Make_Me_CryUITests.swift; sourceTree = "<group>"; };
 		154E91501CF5EF2E007205D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E915C1CF8896A007205D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2BF6C2A2918CFE19816D8F38 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me Cry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.debug.xcconfig"; sourceTree = "<group>"; };
+		322E561BB143E9A20F526F3C /* Pods_Animated_Movies_Make_Me_CryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_CryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		617D91578ED247122C0A42C4 /* Pods-Animated Movies Make Me Cry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me Cry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.release.xcconfig"; sourceTree = "<group>"; };
+		66E985A6E6F066E46766D1C6 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_CryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E55E2BFCF806B41C1B2895C /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me CryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8018EE745430C26B13F4D7C9 /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me CryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD594A7807F3EFCE9C8498A /* Pods-Animated Movies Make Me CryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me CryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC4DEC88672900FA6D91F3A8 /* Pods_Animated_Movies_Make_Me_Cry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_Cry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCF7416FAC809CDEF38340B /* Pods_Animated_Movies_Make_Me_Cry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B9ED8A61D00DCA4E089171 /* Pods_Animated_Movies_Make_Me_CryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B266454DC9083772CE51CC8 /* Pods_Animated_Movies_Make_Me_CryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				154E91421CF5EF2E007205D6 /* Animated Movies Make Me CryTests */,
 				154E914D1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests */,
 				154E91291CF5EF2D007205D6 /* Products */,
+				EBBA2CDFA4275376915057B5 /* Pods */,
+				CAD35879A1C533236876E1F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				154E91351CF5EF2D007205D6 /* Assets.xcassets */,
 				154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */,
 				154E913A1CF5EF2D007205D6 /* Info.plist */,
+				154E915C1CF8896A007205D6 /* GoogleService-Info.plist */,
 				154E91321CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld */,
 			);
 			path = "Animated Movies Make Me Cry";
@@ -128,6 +148,29 @@
 			path = "Animated Movies Make Me CryUITests";
 			sourceTree = "<group>";
 		};
+		CAD35879A1C533236876E1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC4DEC88672900FA6D91F3A8 /* Pods_Animated_Movies_Make_Me_Cry.framework */,
+				322E561BB143E9A20F526F3C /* Pods_Animated_Movies_Make_Me_CryTests.framework */,
+				66E985A6E6F066E46766D1C6 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBBA2CDFA4275376915057B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6C2A2918CFE19816D8F38 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */,
+				617D91578ED247122C0A42C4 /* Pods-Animated Movies Make Me Cry.release.xcconfig */,
+				8018EE745430C26B13F4D7C9 /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */,
+				BDD594A7807F3EFCE9C8498A /* Pods-Animated Movies Make Me CryTests.release.xcconfig */,
+				6E55E2BFCF806B41C1B2895C /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */,
+				0F8938B0625B3526E9F6F015 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154E91531CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me Cry" */;
 			buildPhases = (
+				8B88CD2A31C7D0DA2C881FAE /* 📦 Check Pods Manifest.lock */,
 				154E91241CF5EF2D007205D6 /* Sources */,
 				154E91251CF5EF2D007205D6 /* Frameworks */,
 				154E91261CF5EF2D007205D6 /* Resources */,
+				D10EB5E25E804133B1012693 /* 📦 Embed Pods Frameworks */,
+				1BAEB66F1A14EBB2D82B3BEE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154E91561CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryTests" */;
 			buildPhases = (
+				49A2AFAB4BA76ADF42C309E1 /* 📦 Check Pods Manifest.lock */,
 				154E913B1CF5EF2E007205D6 /* Sources */,
 				154E913C1CF5EF2E007205D6 /* Frameworks */,
 				154E913D1CF5EF2E007205D6 /* Resources */,
+				024476698795F5F2B5CD4D8E /* 📦 Embed Pods Frameworks */,
+				ADAE93A255280641DA490F2B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154E91591CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryUITests" */;
 			buildPhases = (
+				5CBC2FDC525B83F5CFD96F89 /* 📦 Check Pods Manifest.lock */,
 				154E91461CF5EF2E007205D6 /* Sources */,
 				154E91471CF5EF2E007205D6 /* Frameworks */,
 				154E91481CF5EF2E007205D6 /* Resources */,
+				343E34AE1575F389FA2B4DCA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				154E91391CF5EF2D007205D6 /* LaunchScreen.storyboard in Resources */,
+				154E915D1CF8896A007205D6 /* GoogleService-Info.plist in Resources */,
 				154E91361CF5EF2D007205D6 /* Assets.xcassets in Resources */,
 				154E91311CF5EF2D007205D6 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +305,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024476698795F5F2B5CD4D8E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BAEB66F1A14EBB2D82B3BEE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		343E34AE1575F389FA2B4DCA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A2AFAB4BA76ADF42C309E1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBC2FDC525B83F5CFD96F89 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B88CD2A31C7D0DA2C881FAE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAE93A255280641DA490F2B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10EB5E25E804133B1012693 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		154E91241CF5EF2D007205D6 /* Sources */ = {
@@ -403,6 +578,7 @@
 		};
 		154E91541CF5EF2E007205D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF6C2A2918CFE19816D8F38 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Animated Movies Make Me Cry/Info.plist";
@@ -414,6 +590,7 @@
 		};
 		154E91551CF5EF2E007205D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617D91578ED247122C0A42C4 /* Pods-Animated Movies Make Me Cry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Animated Movies Make Me Cry/Info.plist";
@@ -425,6 +602,7 @@
 		};
 		154E91571CF5EF2E007205D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8018EE745430C26B13F4D7C9 /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Animated Movies Make Me CryTests/Info.plist";
@@ -437,6 +615,7 @@
 		};
 		154E91581CF5EF2E007205D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD594A7807F3EFCE9C8498A /* Pods-Animated Movies Make Me CryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Animated Movies Make Me CryTests/Info.plist";
@@ -449,6 +628,7 @@
 		};
 		154E915A1CF5EF2E007205D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E55E2BFCF806B41C1B2895C /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Animated Movies Make Me CryUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +640,7 @@
 		};
 		154E915B1CF5EF2E007205D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8938B0625B3526E9F6F015 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Animated Movies Make Me CryUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +669,7 @@
 				154E91551CF5EF2E007205D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154E91561CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +678,7 @@
 				154E91581CF5EF2E007205D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154E91591CF5EF2E007205D6 /* Build configuration list for PBXNativeTarget "Animated Movies Make Me CryUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +687,7 @@
 				154E915B1CF5EF2E007205D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

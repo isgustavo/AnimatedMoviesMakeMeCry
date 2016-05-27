@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DE854551DEFD0BFD48877C06AE8EF1 /* Pods-Animated Movies Make Me CryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F130154E3A8859945F5B07BF902A4BB /* Pods-Animated Movies Make Me CryUITests-dummy.m */; };
+		055F3C045227E11DCDF6B161C4DDDDC1 /* Pods-Animated Movies Make Me CryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A86140F603EBE0528E11BD2E39EDB6 /* Pods-Animated Movies Make Me CryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10853853A337C2A6CD6DC8A47354426D /* Pods-Animated Movies Make Me CryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C88FE5D9BFFA4D449B0DFD82A11B7C2 /* Pods-Animated Movies Make Me CryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665C845428C9A3B2AB36FA3B829CA806 /* Pods-Animated Movies Make Me Cry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E8310609CB6A3C4BA954FB7D7EB8FA /* Pods-Animated Movies Make Me Cry-dummy.m */; };
+		8B9A16970ABD3B84F5D5A23B97D3E466 /* Pods-Animated Movies Make Me CryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608113814ECCC61219BFD6261194AC81 /* Pods-Animated Movies Make Me CryTests-dummy.m */; };
+		C0D9A8506693C0587B62CC8D31F7354B /* Pods-Animated Movies Make Me Cry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6891DF39E78DC65FAE5A7E56889AD158 /* Pods-Animated Movies Make Me Cry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12660AABC6FACB477A1B15275DE229B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D08D58A65EDDDB8A413A51D628F4A8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DBD130931B0B9C159741707A7033EB57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06AEA98778C14B16FAD5D21FDCF1E834 /* Pods-Animated Movies Make Me CryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Animated Movies Make Me CryUITests.modulemap"; sourceTree = "<group>"; };
+		0D1A0DE450B8D9A328CDF80807FDDC7E /* Pods-Animated Movies Make Me CryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animated Movies Make Me CryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E76E25F350052CE12849F0AA5CAF481 /* Pods-Animated Movies Make Me CryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animated Movies Make Me CryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F130154E3A8859945F5B07BF902A4BB /* Pods-Animated Movies Make Me CryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animated Movies Make Me CryUITests-dummy.m"; sourceTree = "<group>"; };
+		15BE23AB8F08AED07D7A30DE5A23DC21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18164C6D62FB2BBE66DD53056DB47490 /* Pods-Animated Movies Make Me CryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me CryTests.release.xcconfig"; sourceTree = "<group>"; };
+		219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		248DB20A8F5DB75A86482A16168DC2E0 /* Pods-Animated Movies Make Me CryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animated Movies Make Me CryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		324C89FC82AA43695D932D3D9A5AC230 /* Pods-Animated Movies Make Me CryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me CryTests-frameworks.sh"; sourceTree = "<group>"; };
+		456D6BF28E0DC88F3D21EC4309EE3FD5 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me Cry.debug.xcconfig"; sourceTree = "<group>"; };
+		499F89C90E5EAE4C008F775F069E0EDB /* Pods_Animated_Movies_Make_Me_CryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_CryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A92D05AFE8E7C35DE504CE5863A7980 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACCB772DFAD0CEBBF74B68DACBC3072 /* Pods_Animated_Movies_Make_Me_Cry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_Cry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E8310609CB6A3C4BA954FB7D7EB8FA /* Pods-Animated Movies Make Me Cry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animated Movies Make Me Cry-dummy.m"; sourceTree = "<group>"; };
+		5C88FE5D9BFFA4D449B0DFD82A11B7C2 /* Pods-Animated Movies Make Me CryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animated Movies Make Me CryUITests-umbrella.h"; sourceTree = "<group>"; };
+		5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		608113814ECCC61219BFD6261194AC81 /* Pods-Animated Movies Make Me CryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animated Movies Make Me CryTests-dummy.m"; sourceTree = "<group>"; };
+		687269525CEC8AC5D4B9048322BCD80B /* Pods-Animated Movies Make Me CryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me CryTests-resources.sh"; sourceTree = "<group>"; };
+		6891DF39E78DC65FAE5A7E56889AD158 /* Pods-Animated Movies Make Me Cry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animated Movies Make Me Cry-umbrella.h"; sourceTree = "<group>"; };
+		6CC6DA61F3CE50094F36CEF32ABFD61F /* Pods-Animated Movies Make Me Cry-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animated Movies Make Me Cry-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6EE84280D8ED1853DCDC99CD2ED392F1 /* Pods-Animated Movies Make Me Cry-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me Cry-frameworks.sh"; sourceTree = "<group>"; };
+		78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		79A86140F603EBE0528E11BD2E39EDB6 /* Pods-Animated Movies Make Me CryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animated Movies Make Me CryTests-umbrella.h"; sourceTree = "<group>"; };
+		806645A4650BB8E816EC491AD622700C /* Pods-Animated Movies Make Me CryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animated Movies Make Me CryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4D63721E568AFA6EC861969290C69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CEB97972FA18E86CD417613B56E570 /* Pods-Animated Movies Make Me CryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me CryUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A8A1086BEE4A0A7CEF925A2B81780C91 /* Pods-Animated Movies Make Me CryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Animated Movies Make Me CryTests.modulemap"; sourceTree = "<group>"; };
+		AE6FD4F22640A96F7884165C2CA64058 /* Pods-Animated Movies Make Me Cry-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animated Movies Make Me Cry-acknowledgements.plist"; sourceTree = "<group>"; };
+		B20927A89F4222C67D7CBA9C1BF80720 /* Pods-Animated Movies Make Me Cry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Animated Movies Make Me Cry.modulemap"; sourceTree = "<group>"; };
+		BA31B9772615C0B9E429CF10C61869B5 /* Pods-Animated Movies Make Me Cry-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me Cry-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3BC33C2B0B04F04FA0AB1D99CB0BA24 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_CryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75979447D89A4862445F6DBD516E486 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me CryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA5738D1B2CD28375FDEBA73108AECF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E18EAFF71192EC9FEB86677918C4F1A2 /* Pods-Animated Movies Make Me CryUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animated Movies Make Me CryUITests-resources.sh"; sourceTree = "<group>"; };
+		EB622BB799F47A51D7937B95FF13E0D6 /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me CryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE6ABEE01189F6F226B4E09700DBA71C /* Pods-Animated Movies Make Me Cry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me Cry.release.xcconfig"; sourceTree = "<group>"; };
+		F1E5620A0289885D1A7BE12952288620 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		F27D2A7EE54A007ADB837D615A4A565A /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animated Movies Make Me CryTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3201210A027377BF367A1D3880926029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12660AABC6FACB477A1B15275DE229B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC85ED9D706B830E780F0AE8C4F8F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08D58A65EDDDB8A413A51D628F4A8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13058D67BB13C57CAB6A0BA78881719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD130931B0B9C159741707A7033EB57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */,
+				17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */,
+				C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */,
+				AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */,
+				D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */,
+				1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4BC04D076DD74278EEC09A1F9E9A2 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		324E2F645E937130BB4D82B195447ABD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5620A0289885D1A7BE12952288620 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DE4BC04D076DD74278EEC09A1F9E9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5738D1B2CD28375FDEBA73108AECF /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */,
+				E6E75E592F41D993FE5B156AC5DAD102 /* Products */,
+				B5D86857F23363053AB55FDAAA0B02AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89642C7B559759CFA3660C121C7BCC51 /* Pods-Animated Movies Make Me Cry */ = {
+			isa = PBXGroup;
+			children = (
+				93A4D63721E568AFA6EC861969290C69 /* Info.plist */,
+				B20927A89F4222C67D7CBA9C1BF80720 /* Pods-Animated Movies Make Me Cry.modulemap */,
+				6CC6DA61F3CE50094F36CEF32ABFD61F /* Pods-Animated Movies Make Me Cry-acknowledgements.markdown */,
+				AE6FD4F22640A96F7884165C2CA64058 /* Pods-Animated Movies Make Me Cry-acknowledgements.plist */,
+				53E8310609CB6A3C4BA954FB7D7EB8FA /* Pods-Animated Movies Make Me Cry-dummy.m */,
+				6EE84280D8ED1853DCDC99CD2ED392F1 /* Pods-Animated Movies Make Me Cry-frameworks.sh */,
+				BA31B9772615C0B9E429CF10C61869B5 /* Pods-Animated Movies Make Me Cry-resources.sh */,
+				6891DF39E78DC65FAE5A7E56889AD158 /* Pods-Animated Movies Make Me Cry-umbrella.h */,
+				456D6BF28E0DC88F3D21EC4309EE3FD5 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */,
+				EE6ABEE01189F6F226B4E09700DBA71C /* Pods-Animated Movies Make Me Cry.release.xcconfig */,
+			);
+			name = "Pods-Animated Movies Make Me Cry";
+			path = "Target Support Files/Pods-Animated Movies Make Me Cry";
+			sourceTree = "<group>";
+		};
+		8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B45EDDFD103499889452C2824E8C05B2 /* Pods-Animated Movies Make Me CryTests */ = {
+			isa = PBXGroup;
+			children = (
+				15BE23AB8F08AED07D7A30DE5A23DC21 /* Info.plist */,
+				A8A1086BEE4A0A7CEF925A2B81780C91 /* Pods-Animated Movies Make Me CryTests.modulemap */,
+				248DB20A8F5DB75A86482A16168DC2E0 /* Pods-Animated Movies Make Me CryTests-acknowledgements.markdown */,
+				0D1A0DE450B8D9A328CDF80807FDDC7E /* Pods-Animated Movies Make Me CryTests-acknowledgements.plist */,
+				608113814ECCC61219BFD6261194AC81 /* Pods-Animated Movies Make Me CryTests-dummy.m */,
+				324C89FC82AA43695D932D3D9A5AC230 /* Pods-Animated Movies Make Me CryTests-frameworks.sh */,
+				687269525CEC8AC5D4B9048322BCD80B /* Pods-Animated Movies Make Me CryTests-resources.sh */,
+				79A86140F603EBE0528E11BD2E39EDB6 /* Pods-Animated Movies Make Me CryTests-umbrella.h */,
+				F27D2A7EE54A007ADB837D615A4A565A /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */,
+				18164C6D62FB2BBE66DD53056DB47490 /* Pods-Animated Movies Make Me CryTests.release.xcconfig */,
+			);
+			name = "Pods-Animated Movies Make Me CryTests";
+			path = "Target Support Files/Pods-Animated Movies Make Me CryTests";
+			sourceTree = "<group>";
+		};
+		B5D86857F23363053AB55FDAAA0B02AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89642C7B559759CFA3660C121C7BCC51 /* Pods-Animated Movies Make Me Cry */,
+				B45EDDFD103499889452C2824E8C05B2 /* Pods-Animated Movies Make Me CryTests */,
+				E7C71F248CAD8DFC98D2D4A6B3C5EE78 /* Pods-Animated Movies Make Me CryUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */,
+				8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		E6E75E592F41D993FE5B156AC5DAD102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCB772DFAD0CEBBF74B68DACBC3072 /* Pods_Animated_Movies_Make_Me_Cry.framework */,
+				499F89C90E5EAE4C008F775F069E0EDB /* Pods_Animated_Movies_Make_Me_CryTests.framework */,
+				D3BC33C2B0B04F04FA0AB1D99CB0BA24 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C71F248CAD8DFC98D2D4A6B3C5EE78 /* Pods-Animated Movies Make Me CryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A92D05AFE8E7C35DE504CE5863A7980 /* Info.plist */,
+				06AEA98778C14B16FAD5D21FDCF1E834 /* Pods-Animated Movies Make Me CryUITests.modulemap */,
+				0E76E25F350052CE12849F0AA5CAF481 /* Pods-Animated Movies Make Me CryUITests-acknowledgements.markdown */,
+				806645A4650BB8E816EC491AD622700C /* Pods-Animated Movies Make Me CryUITests-acknowledgements.plist */,
+				0F130154E3A8859945F5B07BF902A4BB /* Pods-Animated Movies Make Me CryUITests-dummy.m */,
+				A2CEB97972FA18E86CD417613B56E570 /* Pods-Animated Movies Make Me CryUITests-frameworks.sh */,
+				E18EAFF71192EC9FEB86677918C4F1A2 /* Pods-Animated Movies Make Me CryUITests-resources.sh */,
+				5C88FE5D9BFFA4D449B0DFD82A11B7C2 /* Pods-Animated Movies Make Me CryUITests-umbrella.h */,
+				EB622BB799F47A51D7937B95FF13E0D6 /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */,
+				D75979447D89A4862445F6DBD516E486 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */,
+			);
+			name = "Pods-Animated Movies Make Me CryUITests";
+			path = "Target Support Files/Pods-Animated Movies Make Me CryUITests";
+			sourceTree = "<group>";
+		};
+		E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				324E2F645E937130BB4D82B195447ABD /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26F46A9BF21A1B3D16586492EE070950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D9A8506693C0587B62CC8D31F7354B /* Pods-Animated Movies Make Me Cry-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B05E1EFFC05852439B91231A79ED53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F3C045227E11DCDF6B161C4DDDDC1 /* Pods-Animated Movies Make Me CryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E3F6810C0793D76DD3FC1B9F7E0E5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10853853A337C2A6CD6DC8A47354426D /* Pods-Animated Movies Make Me CryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FFC6357C05B7BA29E3DF7FB01AC28FA /* Pods-Animated Movies Make Me CryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AD0908299FC364E6FC93F471A2F709 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me CryUITests" */;
+			buildPhases = (
+				8F6592FD2F2C1083BC0FEED29EABC1AE /* Sources */,
+				3201210A027377BF367A1D3880926029 /* Frameworks */,
+				81E3F6810C0793D76DD3FC1B9F7E0E5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animated Movies Make Me CryUITests";
+			productName = "Pods-Animated Movies Make Me CryUITests";
+			productReference = D3BC33C2B0B04F04FA0AB1D99CB0BA24 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D666E5FD7482E8230C13FEDF7FA773FF /* Pods-Animated Movies Make Me CryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07314E5D570BC4681BD496678CFF6D78 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me CryTests" */;
+			buildPhases = (
+				9F1612E7D8D6748ABE119E5ED5F124DB /* Sources */,
+				E13058D67BB13C57CAB6A0BA78881719 /* Frameworks */,
+				49B05E1EFFC05852439B91231A79ED53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animated Movies Make Me CryTests";
+			productName = "Pods-Animated Movies Make Me CryTests";
+			productReference = 499F89C90E5EAE4C008F775F069E0EDB /* Pods_Animated_Movies_Make_Me_CryTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E27B135B21BB231EB455D219651DC5F8 /* Pods-Animated Movies Make Me Cry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C965ECA50C2151FD336BA6DBC2AB463 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me Cry" */;
+			buildPhases = (
+				5BBCCC1A7971B98D81202AA6040CD41D /* Sources */,
+				8CC85ED9D706B830E780F0AE8C4F8F18 /* Frameworks */,
+				26F46A9BF21A1B3D16586492EE070950 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animated Movies Make Me Cry";
+			productName = "Pods-Animated Movies Make Me Cry";
+			productReference = 4ACCB772DFAD0CEBBF74B68DACBC3072 /* Pods_Animated_Movies_Make_Me_Cry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6E75E592F41D993FE5B156AC5DAD102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27B135B21BB231EB455D219651DC5F8 /* Pods-Animated Movies Make Me Cry */,
+				D666E5FD7482E8230C13FEDF7FA773FF /* Pods-Animated Movies Make Me CryTests */,
+				3FFC6357C05B7BA29E3DF7FB01AC28FA /* Pods-Animated Movies Make Me CryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBCCC1A7971B98D81202AA6040CD41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665C845428C9A3B2AB36FA3B829CA806 /* Pods-Animated Movies Make Me Cry-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6592FD2F2C1083BC0FEED29EABC1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DE854551DEFD0BFD48877C06AE8EF1 /* Pods-Animated Movies Make Me CryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1612E7D8D6748ABE119E5ED5F124DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9A16970ABD3B84F5D5A23B97D3E466 /* Pods-Animated Movies Make Me CryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2259309F4CCDD998C2E330C68AF63DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456D6BF28E0DC88F3D21EC4309EE3FD5 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me Cry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_Cry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24ABB76C78D3F4A6D1852DC47615F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18164C6D62FB2BBE66DD53056DB47490 /* Pods-Animated Movies Make Me CryTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me CryTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_CryTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		774E141BE0C25C7467E85561B570F72A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27D2A7EE54A007ADB837D615A4A565A /* Pods-Animated Movies Make Me CryTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me CryTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me CryTests/Pods-Animated Movies Make Me CryTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_CryTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5516B63DCDFA27F8449B3A984081C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75979447D89A4862445F6DBD516E486 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me CryUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_CryUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E70F10D28B5C473FBB756AB4341F6410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB622BB799F47A51D7937B95FF13E0D6 /* Pods-Animated Movies Make Me CryUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me CryUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_CryUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8AD142FAD7786BAD66AF8244AC5F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6ABEE01189F6F226B4E09700DBA71C /* Pods-Animated Movies Make Me Cry.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Animated Movies Make Me Cry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animated_Movies_Make_Me_Cry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07314E5D570BC4681BD496678CFF6D78 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me CryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774E141BE0C25C7467E85561B570F72A /* Debug */,
+				24ABB76C78D3F4A6D1852DC47615F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C965ECA50C2151FD336BA6DBC2AB463 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me Cry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2259309F4CCDD998C2E330C68AF63DEE /* Debug */,
+				FA8AD142FAD7786BAD66AF8244AC5F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AD0908299FC364E6FC93F471A2F709 /* Build configuration list for PBXNativeTarget "Pods-Animated Movies Make Me CryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70F10D28B5C473FBB756AB4341F6410 /* Debug */,
+				C5516B63DCDFA27F8449B3A984081C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
