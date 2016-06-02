@@ -35,6 +35,7 @@ class AnimatedMovieController: UIViewController, UITableViewDataSource, UITableV
     var loading: Bool = true {
         didSet {
             self.tableView.reloadData()
+            self.tableView.scrollEnabled = true
         }
     }
     
