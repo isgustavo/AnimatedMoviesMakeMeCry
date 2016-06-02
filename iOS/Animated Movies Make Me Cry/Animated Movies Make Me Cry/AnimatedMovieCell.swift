@@ -10,6 +10,7 @@ import UIKit
 
 class AnimatedMovieCell: UITableViewCell {
 
+    @IBOutlet weak var thumbnailImage: UIImageView!
     @IBOutlet weak var movieName: UILabel!
     
     override func awakeFromNib() {

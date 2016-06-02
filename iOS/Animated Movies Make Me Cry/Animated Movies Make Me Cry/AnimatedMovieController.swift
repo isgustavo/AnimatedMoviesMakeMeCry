@@ -12,13 +12,13 @@ import Firebase
 struct Movie {
     
     var name: String!
-    var thumb: String!
+    var thumbnail: UIImage!
     var video: String!
     var like: Int!
 
-    init(name: String, thumb: String, video: String, like: Int) {
+    init(name: String, thumbnail: UIImage, video: String, like: Int) {
         self.name = name
-        self.thumb = thumb
+        self.thumbnail = thumbnail
         self.video = video
         self.like = like
     }
@@ -29,10 +29,16 @@ class AnimatedMovieController: UIViewController, UITableViewDataSource, UITableV
     @IBOutlet weak var tableView: UITableView!
     
     var database: FIRDatabase!
+    var storage: FIRStorage!
     var animatedMovies: [Movie] = [Movie]()
     
-    var loading: Bool = true
+    var loading: Bool = true {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
     
+    // MARK: - Lifecycle app
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,25 +47,10 @@ class AnimatedMovieController: UIViewController, UITableViewDataSource, UITableV
         
         //Initialize Database
         self.database = FIRDatabase.database()
+        self.storage = FIRStorage.storage()
         
-        //Listen for when child nodes get added to the collection
-        let moviesRef = database.reference().child("movies")
-        moviesRef.observeEventType(.Value, withBlock: { (snapshot) -> Void in
-            
-            let postDict = snapshot.value as! [String: AnyObject]
-            self.animatedMovies = [Movie]()
-            for (_, value) in postDict.enumerate() {
-                let name = value.1["name"] as! String
-                let thumb = value.1["thumb"] as! String
-                let video = value.1["video"] as! String
-                let likes = value.1["likes"] as! Int
-                
-                let movie = Movie(name: name, thumb: thumb, video: video, like: likes)
-                self.animatedMovies.append(movie)
-            }
-            self.loading = false
-            self.tableView.reloadData()
-        })
+        self.prepareValuesForUse()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -87,6 +78,7 @@ class AnimatedMovieController: UIViewController, UITableViewDataSource, UITableV
             
             let movie = self.animatedMovies[indexPath.row]
             
+            cell.thumbnailImage.image = movie.thumbnail
             cell.movieName.text = movie.name
             
             return cell
@@ -97,17 +89,62 @@ class AnimatedMovieController: UIViewController, UITableViewDataSource, UITableV
     
     // MARK: - Table View Delegate
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return CGFloat(200.0)
+        
+        if self.loading {
+            return CGFloat(200.0)
+        } else {
+            return CGFloat(270.0)
+        }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // MARK: - Animated Movie Controller methods
+    func prepareValuesForUse() {
+        
+        //Listen for when child nodes get added to the collection
+        let moviesRef = database.reference().child("movies")
+        var downloadThumbStack: Int = 0
+        moviesRef.observeEventType(.Value, withBlock: { (snapshot) -> Void in
+            
+            let postDict = snapshot.value as! [String: AnyObject]
+            self.animatedMovies = [Movie]()
+            for (_, value) in postDict.enumerate() {
+                let name  = value.1["name"] as! String
+                let thumb = value.1["thumbnail"] as! String
+                let video = value.1["video"] as! String
+                let likes = value.1["likes"] as! Int
+                
+                let gsReference = self.storage.referenceForURL(thumb)
+                
+                let downloadTask =  gsReference.dataWithMaxSize(25 * 1024 * 1024) { (data, error) -> Void in
+                    if (error != nil) {
+                        print("Uh-oh, an error occurred!\(error)")
+                    } else {
+                        let image: UIImage! = UIImage(data: data!)
+                        
+                        let movie = Movie(name: name, thumbnail: image, video: video, like: likes)
+                        self.animatedMovies.append(movie)
+                        
+                        if downloadThumbStack == 0 {
+                            self.loading = false
+                        }
+                    }
+                }
+                
+                // Observe changes in status
+                downloadTask.observeStatus(.Resume) { (snapshot) -> Void in
+                    downloadThumbStack += 1
+                }
+                
+                downloadTask.observeStatus(.Success) { (snapshot) -> Void in
+                    downloadThumbStack -= 1
+                }
+                
+                downloadTask.observeStatus(.Failure) { (snapshot) -> Void in
+                    downloadThumbStack -= 1
+                }
+                
+            }
+        })
     }
-    */
 
 }
