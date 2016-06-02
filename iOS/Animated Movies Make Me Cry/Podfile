@@ -8,6 +8,7 @@ target 'Animated Movies Make Me Cry' do
   # Pods for Animated Movies Make Me Cry
   pod 'Firebase'
   pod 'Firebase/Database'
+  pod ’Firebase/Storage'
 
   target 'Animated Movies Make Me CryTests' do
     inherit! :search_paths
