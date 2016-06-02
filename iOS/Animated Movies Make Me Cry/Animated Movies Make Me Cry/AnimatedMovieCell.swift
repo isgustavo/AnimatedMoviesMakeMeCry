@@ -10,11 +10,14 @@ import UIKit
 
 class AnimatedMovieCell: UITableViewCell {
 
+    @IBOutlet weak var movieName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

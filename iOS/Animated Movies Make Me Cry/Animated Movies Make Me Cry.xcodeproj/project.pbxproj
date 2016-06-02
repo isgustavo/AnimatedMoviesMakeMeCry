@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B266454DC9083772CE51CC8 /* Pods_Animated_Movies_Make_Me_CryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E985A6E6F066E46766D1C6 /* Pods_Animated_Movies_Make_Me_CryUITests.framework */; };
+		150884201CFF65140009EB0B /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1508841D1CFF65140009EB0B /* FBShimmeringLayer.m */; };
+		150884211CFF65140009EB0B /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1508841F1CFF65140009EB0B /* FBShimmeringView.m */; };
+		150884261CFF8BCD0009EB0B /* LoadingAnimatedMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150884251CFF8BCD0009EB0B /* LoadingAnimatedMovieCell.swift */; };
 		154002251CFF159B008F1B46 /* AnimatedMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154002241CFF159B008F1B46 /* AnimatedMovieController.swift */; };
 		154002271CFF16D3008F1B46 /* AnimatedMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154002261CFF16D3008F1B46 /* AnimatedMovieCell.swift */; };
 		154E912C1CF5EF2D007205D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E912B1CF5EF2D007205D6 /* AppDelegate.swift */; };
@@ -16,7 +19,6 @@
 		154E91361CF5EF2D007205D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E91351CF5EF2D007205D6 /* Assets.xcassets */; };
 		154E91391CF5EF2D007205D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */; };
 		154E915D1CF8896A007205D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 154E915C1CF8896A007205D6 /* GoogleService-Info.plist */; };
-		158B518E1CFE6C0800560808 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B518D1CFE6C0800560808 /* Movie.swift */; };
 		61B9ED8A61D00DCA4E089171 /* Pods_Animated_Movies_Make_Me_CryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322E561BB143E9A20F526F3C /* Pods_Animated_Movies_Make_Me_CryTests.framework */; };
 		CCCF7416FAC809CDEF38340B /* Pods_Animated_Movies_Make_Me_Cry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4DEC88672900FA6D91F3A8 /* Pods_Animated_Movies_Make_Me_Cry.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,14 @@
 
 /* Begin PBXFileReference section */
 		0F8938B0625B3526E9F6F015 /* Pods-Animated Movies Make Me CryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me CryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me CryUITests/Pods-Animated Movies Make Me CryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1508841A1CFF65140009EB0B /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		1508841B1CFF65140009EB0B /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		1508841C1CFF65140009EB0B /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		1508841D1CFF65140009EB0B /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		1508841E1CFF65140009EB0B /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		1508841F1CFF65140009EB0B /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		150884221CFF65510009EB0B /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		150884251CFF8BCD0009EB0B /* LoadingAnimatedMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingAnimatedMovieCell.swift; sourceTree = "<group>"; };
 		154002241CFF159B008F1B46 /* AnimatedMovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMovieController.swift; sourceTree = "<group>"; };
 		154002261CFF16D3008F1B46 /* AnimatedMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMovieCell.swift; sourceTree = "<group>"; };
 		154E91281CF5EF2D007205D6 /* Animated Movies Make Me Cry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Movies Make Me Cry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +62,6 @@
 		154E913F1CF5EF2E007205D6 /* Animated Movies Make Me CryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Movies Make Me CryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154E914A1CF5EF2E007205D6 /* Animated Movies Make Me CryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Movies Make Me CryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154E915C1CF8896A007205D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		158B518D1CFE6C0800560808 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		2BF6C2A2918CFE19816D8F38 /* Pods-Animated Movies Make Me Cry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me Cry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.debug.xcconfig"; sourceTree = "<group>"; };
 		322E561BB143E9A20F526F3C /* Pods_Animated_Movies_Make_Me_CryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_Movies_Make_Me_CryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		617D91578ED247122C0A42C4 /* Pods-Animated Movies Make Me Cry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated Movies Make Me Cry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated Movies Make Me Cry/Pods-Animated Movies Make Me Cry.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150884191CFF65140009EB0B /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				1508841A1CFF65140009EB0B /* FBShimmering-Prefix.pch */,
+				1508841B1CFF65140009EB0B /* FBShimmering.h */,
+				1508841C1CFF65140009EB0B /* FBShimmeringLayer.h */,
+				1508841D1CFF65140009EB0B /* FBShimmeringLayer.m */,
+				1508841E1CFF65140009EB0B /* FBShimmeringView.h */,
+				1508841F1CFF65140009EB0B /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
 		154E911F1CF5EF2D007205D6 = {
 			isa = PBXGroup;
 			children = (
@@ -115,15 +137,17 @@
 			isa = PBXGroup;
 			children = (
 				154E912B1CF5EF2D007205D6 /* AppDelegate.swift */,
+				150884221CFF65510009EB0B /* Bridging-Header.h */,
 				154E912F1CF5EF2D007205D6 /* Main.storyboard */,
 				154E91371CF5EF2D007205D6 /* LaunchScreen.storyboard */,
 				154E91351CF5EF2D007205D6 /* Assets.xcassets */,
 				154002241CFF159B008F1B46 /* AnimatedMovieController.swift */,
 				154002261CFF16D3008F1B46 /* AnimatedMovieCell.swift */,
-				158B518D1CFE6C0800560808 /* Movie.swift */,
+				150884251CFF8BCD0009EB0B /* LoadingAnimatedMovieCell.swift */,
 				154E913A1CF5EF2D007205D6 /* Info.plist */,
 				154E915C1CF8896A007205D6 /* GoogleService-Info.plist */,
 				154E91321CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld */,
+				150884191CFF65140009EB0B /* FBShimmering */,
 			);
 			path = "Animated Movies Make Me Cry";
 			sourceTree = "<group>";
@@ -415,10 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150884201CFF65140009EB0B /* FBShimmeringLayer.m in Sources */,
 				154E912C1CF5EF2D007205D6 /* AppDelegate.swift in Sources */,
 				154E91341CF5EF2D007205D6 /* Animated_Movies_Make_Me_Cry.xcdatamodeld in Sources */,
+				150884211CFF65140009EB0B /* FBShimmeringView.m in Sources */,
 				154002251CFF159B008F1B46 /* AnimatedMovieController.swift in Sources */,
-				158B518E1CFE6C0800560808 /* Movie.swift in Sources */,
+				150884261CFF8BCD0009EB0B /* LoadingAnimatedMovieCell.swift in Sources */,
 				154002271CFF16D3008F1B46 /* AnimatedMovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Animated Movies Make Me Cry/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -582,6 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Animated Movies Make Me Cry/Bridging-Header.h";
 			};
 			name = Release;
 		};
