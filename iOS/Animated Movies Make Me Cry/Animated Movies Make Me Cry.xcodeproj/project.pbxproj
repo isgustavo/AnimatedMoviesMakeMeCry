@@ -595,6 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Animated Movies Make Me Cry/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -610,6 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hi.gustavo.oliveira.Animated-Movies-Make-Me-Cry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Animated Movies Make Me Cry/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
